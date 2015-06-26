@@ -21,4 +21,8 @@ class MyApp < Sinatra::Base
     #respond.erb
     erb :respond
   end
+  
+  get '/index.erb' do
+    erb :index
+  end
 end
